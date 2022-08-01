@@ -43,7 +43,7 @@ public class DepartamentoDAOJDBC implements DepartamentoDAO {
 
 				listaDepartamentos.add(emp);
 			}
-			System.out.println("Añadidos todos los departamentos: ");
+			System.out.println("AÃ±adidos todos los departamentos: ");
 			System.out.println(listaDepartamentos);
 		} catch (SQLException e) {
 			System.out.println("Error al realizar la consulta sobre departamentos: "+e.getMessage());
@@ -124,7 +124,7 @@ public class DepartamentoDAOJDBC implements DepartamentoDAO {
 			System.out.println(dpto);
 
 		} catch (SQLException e) {
-			System.out.println("Error al realizar la inserción del departamento: " + dpto
+			System.out.println("Error al realizar la inserciÃ³n del departamento: " + dpto
 		        +e.getMessage());
 		} finally {
 			try {
